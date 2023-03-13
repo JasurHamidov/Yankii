@@ -1,0 +1,33 @@
+@media (max-width:550px) {
+    .fon {
+        background-repeat: no-repeat;
+        background: url(../img/YankiM.png);
+    }
+
+    #one {
+        display: none;
+    }
+
+    #two {
+        display: none;
+    }
+
+    .item_box {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 5px;
+    }
+
+    .item {
+        width: 260px;
+    }
+
+
+}
+
+@media (max-width: 800px) {
+    #two {
+        display: none;
+    }
+
+
+}
